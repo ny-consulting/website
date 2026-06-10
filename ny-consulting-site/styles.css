@@ -522,10 +522,13 @@ h1 em, h2 em {
 .marquee-track {
   display: flex;
   align-items: center;
-  gap: 72px;
   width: max-content;
   animation: marquee 28s linear infinite;
 }
+
+/* margin instead of flex gap: each half of the track measures exactly
+   50% of the total, so the loop wraps with no visible jump */
+.marquee-logo { margin-right: 72px; }
 
 .marquee:hover .marquee-track { animation-play-state: paused; }
 
