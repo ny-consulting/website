@@ -523,7 +523,7 @@ h1 em, h2 em {
   display: flex;
   align-items: center;
   width: max-content;
-  animation: marquee 28s linear infinite;
+  animation: marquee 80s linear infinite;
 }
 
 /* margin instead of flex gap: each half of the track measures exactly
